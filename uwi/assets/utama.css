@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+#beranda{
+    height: 500px;
+    background-color: lightgray;
+    padding-top: 200px;
+}
+
+.box{
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.box h2{
+    width: 90%;
+    border-bottom:1px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.lapor h2{
+    padding: 0 40px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.box-lapor{
+    display: flex;
+    margin: auto;
+    width: 95%;
+    height: 900px;
+    border: 1px solid black;
+    background-color: lightgray;
+    font-size: 23px;
+}
+
+.text{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;align-items: baseline;
+    padding: 42px 0;
+}
+
+.text label{
+    margin-left: 50px;
+}
+
+.input{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 50px;
+}
+
+.input input{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 34px;
+}
+
+.input #lapor{
+    width: 90%;
+}
+
+
+.box-bantuan{
+    width: 95%;
+    height: 600px;
+    margin: auto;
+}
+
+.box-bantuan p, h3{
+    margin: 10px 0;
+    text-align: justify;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px; 
+    margin-left: 540px;
+}
